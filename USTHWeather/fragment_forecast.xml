@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#03A9F4"
+    android:orientation="vertical"
+    tools:context=".ForecastFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="122dp"
+            android:layout_height="47dp"
+            android:text="MON" />
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="47dp"
+            android:src="@drawable/rainy" />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="47dp"
+            android:text="Rain" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="47dp"
+            android:text="TUE" />
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="47dp"
+            android:src="@drawable/cloudy" />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="47dp"
+            android:text="Partly cloudy" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="47dp"
+            android:text="WED" />
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="47dp"
+            android:src="@drawable/rainy" />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="47dp"
+            android:text="Rain" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="47dp"
+            android:text="THU" />
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="47dp"
+            android:src="@drawable/sunny" />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="47dp"
+            android:text="Today is so hot" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="47dp"
+            android:text="FRI" />
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="47dp"
+            android:src="@drawable/cloudy" />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="47dp"
+            android:text="Partly cloudy" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="47dp"
+            android:text="SAT" />
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="47dp"
+            android:src="@drawable/rainy" />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="47dp"
+            android:text="Today is rainy:(" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="47dp"
+            android:text="SUN" />
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="47dp"
+            android:src="@drawable/sunny" />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="47dp"
+            android:text="Today is sunny" />
+
+    </LinearLayout>
+
+</LinearLayout>
