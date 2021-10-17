@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#03F4E0"
+    android:padding="18dp"
+    android:orientation="vertical"
+    tools:context=".ForecastFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="47dp"
+            android:gravity="center"
+            android:text="MON" />
+
+        <ImageView
+            android:gravity="center"
+            android:layout_width="120dp"
+            android:layout_height="47dp"
+            android:src="@drawable/rainy" />
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="47dp"
+            android:layout_weight="1"
+            android:text="Rain" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="47dp"
+            android:gravity="center"
+            android:text="TUE" />
+
+        <ImageView
+            android:gravity="center"
+            android:layout_width="120dp"
+            android:layout_height="47dp"
+            android:src="@drawable/cloudy" />
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="47dp"
+            android:layout_weight="1"
+            android:text="Partly cloudy" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="47dp"
+            android:gravity="center"
+            android:text="WED" />
+
+        <ImageView
+            android:gravity="center"
+            android:layout_width="120dp"
+            android:layout_height="47dp"
+            android:src="@drawable/rainy" />
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="47dp"
+            android:layout_weight="1"
+            android:text="Rain" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="47dp"
+            android:gravity="center"
+            android:text="THU" />
+
+        <ImageView
+            android:gravity="center"
+            android:layout_width="120dp"
+            android:layout_height="47dp"
+            android:src="@drawable/sunny" />
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="47dp"
+            android:layout_weight="1"
+            android:text="Sun" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="47dp"
+            android:gravity="center"
+            android:text="FRI" />
+
+        <ImageView
+            android:gravity="center"
+            android:layout_width="120dp"
+            android:layout_height="47dp"
+            android:src="@drawable/cloudy" />
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="47dp"
+            android:layout_weight="1"
+            android:text="Partly cloudy" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="47dp"
+            android:gravity="center"
+            android:text="SAT" />
+
+        <ImageView
+            android:gravity="center"
+            android:layout_width="120dp"
+            android:layout_height="47dp"
+            android:src="@drawable/rainy" />
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="47dp"
+            android:layout_weight="1"
+            android:text="Rain" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="47dp"
+            android:gravity="center"
+            android:text="SUN" />
+
+        <ImageView
+            android:gravity="center"
+            android:layout_width="120dp"
+            android:layout_height="47dp"
+            android:src="@drawable/sunny" />
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="47dp"
+            android:layout_weight="1"
+            android:text="Sun" />
+
+    </LinearLayout>
+
+</LinearLayout>
