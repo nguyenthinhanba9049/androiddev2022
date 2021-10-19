@@ -11,10 +11,6 @@ Student Info
 =======================
 
 * Name: Nguyễn Thị Nhàn
-<<<<<<< HEAD
-* ID: BA9-049
-=======
 * ID: Ba9-049
->>>>>>> 55564f1276a9c49bebc56cb3dc2998bc465a57b4
 * Group ID: 9
 
