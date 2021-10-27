@@ -2,11 +2,16 @@ package vn.edu.usth.usthweather;
 
 import android.os.Bundle;
 
+import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 
+import android.os.Handler;
+import android.os.Looper;
+import android.os.Message;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Toast;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -55,10 +60,24 @@ public class WeatherFragment extends Fragment {
         }
     }
 
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_weather, container, false);
+        View v = inflater.inflate(R.layout.fragment_weather, container, false);
+        v.findViewById(R.id.image).setOnClickListener(view -> {
+            Toast.makeText(getActivity(), "Conecting...", Toast.LENGTH_LONG).show();
+            Thread t = new Thread(() -> {
+                    try {
+                        Thread.sleep(10000);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+            });
+            t.start();
+        });
+        return v;
+
     }
 }

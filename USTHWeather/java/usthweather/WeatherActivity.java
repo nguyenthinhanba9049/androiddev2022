@@ -1,5 +1,13 @@
 package vn.edu.usth.usthweather;
 
+import android.content.Intent;
+import android.os.Bundle;
+import android.os.PersistableBundle;
+import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.widget.Toast;
+
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
@@ -9,14 +17,8 @@ import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.viewpager.widget.PagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
-import android.os.Bundle;
-import android.os.PersistableBundle;
-import android.util.Log;
-import android.view.Menu;
-import android.view.MenuItem;
-
 import com.google.android.material.tabs.TabLayout;
-
+import android.media.MediaPlayer;
 public class WeatherActivity extends AppCompatActivity {
 
     @Override
@@ -28,6 +30,8 @@ public class WeatherActivity extends AppCompatActivity {
         ViewPager pager = (ViewPager) findViewById(R.id.pager);
         pager.setOffscreenPageLimit(3);
         pager.setAdapter(adapter);
+        MediaPlayer mp = MediaPlayer.create(getBaseContext(), R.id.pager);
+        mp.start();
 
         TabLayout tabLayout = (TabLayout) findViewById(R.id.header);
         tabLayout.setupWithViewPager(pager);
@@ -79,8 +83,12 @@ public class WeatherActivity extends AppCompatActivity {
     }
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item){
-        if (item.getItemId()==R.id.search){
-            Log.i("Weather", "Menu search clicked");
+        if (item.getItemId()==R.id.refresh){
+            Toast.makeText(this, "Refreshing..", Toast.LENGTH_LONG).show();
+            return true;
+        }
+        else if (item.getItemId() == R.id.settings){
+            Intent intent = new Intent();
             return true;
         }
         return super.onOptionsItemSelected(item);
